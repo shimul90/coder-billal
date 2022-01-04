@@ -1,0 +1,66 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	
+}
+.orange{
+	color: orange;
+}
+h1{
+	font-size: 50px;
+}
+.flexible-container{
+	display: flex;
+	margin-bottom: 150px;
+}
+.hearder_part{
+	width: 50%;
+}
+.hearder_part img{
+	width: 80%;
+	padding: 5%;
+}
+.link{
+	text-decoration: none;
+	background-color: #FFBC22;
+	border-radius: 5px;
+	padding: 10px 40px;
+	border-radius: 5px;
+	font-weight: 700;
+	color: white;
+}
+.top_banner{
+	background-image: url(../images/top-banner.png);
+	background-repeat: no-repeat;
+}
+.dream-big{
+	background-image: url(../images/dream-bg.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.hearder_partbb{
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 20px;
+	box-shadow: 10px 10px 40px gray;
+	border-radius: 10px;
+}
+.experiences-area{
+	background-image: url(../images/exp-bg.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#web-dev{
+	border-left: 7px solid;
+	border-image: linear-gradient(blue, cyan);
+	border-image-slice: 1;
+}
+#webdec-dev{
+	border-left: 7px solid;
+	border-image: linear-gradient(#FF9E78, #FF7657);
+	border-image-slice: 1;
+}
+footer{
+	text-align: center;
+	color: #C0AEC0;
+}
